@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Suryansh Portfolio</title>
+
+<!-- Google Font (handwritten style) -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* NAV */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+    font-size: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+/* SECTIONS */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+/* PAGE 1 */
+#home h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 110px;   /* 🔥 BIG NAME */
+    letter-spacing: 2px;
+}
+
+#home p {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #94a3b8;
+}
+
+/* PAGE 2 (CENTER FIXED) */
+#about div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 25px;
+}
+
+#about h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 22px;
+    color: #cbd5f5;
+}
+
+/* PAGE 3 */
+.skills-container {
+    width: 80%;
+}
+
+#skills h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;              /* consistent spacing */
+    margin: 60px 0;
+}
+
+.skill-row img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    background: #1e293b;
+    border-radius: 12px;
+}
+
+/* FIXED WIDTH TEXT = alignment perfect */
+.skill-text {
+    width: 250px;          /* 🔥 important fix */
+    text-align: left;
+}
+
+.skill-text h2 {
+    font-size: 32px;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    padding: 50px 20px;   /* 🔥 increased size */
+    text-align: center;
+    font-size: 20px;      /* bigger text */
+}
+
+footer p {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #94a3b8;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* hover effect (optional but looks good) */
+footer a:hover {
+    color: white;
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+
+<!-- PAGE 1 -->
+<section id="home">
+    <div>
+        <h1>Suryansh</h1>
+        <p>Programmer</p>
+    </div>
+</section>
+
+<!-- PAGE 2 -->
+<section id="about">
+    <div class="page2">
+        <img src="WhatsApp Image 2026-04-13 at 5.55.14 PM.jpeg" class="profile" alt="My Photo">
+        <h2>Hello</h2>
+        <p>I am a Video Editor & Web Developer</p>
+    </div>
+</section>
+
+<!-- PAGE 3 -->
+<section id="skills">
+    <div class="skills-container">
+        <h1>My Skills</h1>
+
+        <div class="skill-row">
+            <img src="ngoding-mulu.gif" alt="Web Dev Image">
+            <div class="skill-text">
+                <h2>Web Development</h2>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <img src="images.jpeg" alt="Video Editing Image">
+            <div class="skill-text">
+                <h2>Video Editing</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Connect with me:</p>
+    <a href="https://www.linkedin.com/in/suryansh-sah-b682ab326" target="_blank">LinkedIn</a>
+    <a href="#">X (Twitter)</a>
+    <a href="suryanshshankar20@gmail.com" target="_blank">Email</a>
+</footer>
+
+</body>
+</html>
